@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/customStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Hotel System</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home"><i class="fa fa-bed "></i>	&nbsp;&nbsp;Logo</a>
+        <a href="#news">Rooms</a>
+        <a href="#contact">About</a>
+        <a href="#contact">Contact</a>
+
+        <div class="topnav-right">
+          <a href="#search">Book Now</a>
+        </div>
+      </div>
+      <div class="bg-img">
+        <form action="#" class="container">
+          <div class="HotelNameSty">
+          <a class="HotelName" href="#home"><i class="fa fa-bed "></i>	&nbsp;&nbsp;Hotel Name</a>
+          </div>
+        <label><i class="fa fa-calendar-o"></i> Check In</label><br>
+        <input class="w3-input" type="text" placeholder="DD MM YYYY" name="CheckIn">
+      
+          <label><i class="fa fa-calendar-o"></i> Check Out</label><br><br>
+            <input class="w3-input" type="text" placeholder="DD MM YYYY" name="CheckOut">
+          <label><i class="fa fa-male"></i> Adults</label>
+            <input class="w3-input" type="number" value="1" name="Adults" min="1" max="6">
+      
+            <label><i class="fa fa-child"></i> Kids</label>
+          <input class="w3-input" type="number" value="0" name="Kids" min="0" max="6"><br><br>
+          <button class="btn" type="submit"><i class="fa fa-search "></i> Search </button>
+        </form>
+      </div>
+
+      <div class="w3-row-padding">
+        <div class="Fields">
+          <label><i class="fa fa-calendar-o"></i> Check In</label>
+          <input class="w3-input" type="text" placeholder="DD MM YYYY"><br>
+        
+          <label><i class="fa fa-calendar-o"></i> Check Out</label>
+          <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
+        </div>
+        <div class="Fields">
+          <label><i class="fa fa-male"></i> Adults</label>
+          <input class="w3-input w3-border" type="number" placeholder="1">
+      
+       
+          <label><i class="fa fa-child"></i> Kids</label>
+          <input class="w3-input w3-border" type="number" placeholder="0"><br><br>
+        
+          <label><i class="fa fa-search"></i> Search</label>
+          <button class="btn">Search</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/room_deluxe.jpg"height="400px"width="100%" alt="food" >
+            
+                <h4><b>Deluxe Room</b></h4>
+                <h4>From $199</h4>
+                <p>Single Bed</p>
+                <i class="fas fa-bath"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-phone"></i>
+            <button class="btn">Choose Room</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/room_double.jpg"height="400px"width="100%" alt="food" >
+            
+                <h4><b>Double Price</b></h4>
+                <h4>From $199</h4>
+                <p>Single Bed</p>
+                <i class="fas fa-bath"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-phone"></i>
+                <button class="btn">Choose Room</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/room_single.jpg"height="400px"width="100%" alt="food">
+          
+                <h4><b>Single Price</b></h4>
+                <h4>From $199</h4>
+                <p>Single Bed</p>
+                <i class="fas fa-bath"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-phone"></i>
+                <button class="btn">Choose Room</button>
+          </div>
+        </div><br><br><br>
+        <div class="row">
+          <div class="column side">
+            <h2>Main Content</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+          
+          </div>
+          <img src="images/map.jpg" class="map" alt="">
+          <div class="column middle">
+         </div>
+         <div class="row">
+          <div class="column side">
+            <i class="fas fa-map-marker-alt"> <h2> 423 Some adr, Chicago, US</h2></i>
+            
+          </div>
+          
+          <div class="column middle">
+            <i class="fas fa-phone"></i><h2>Phone: +00 151515</h2></class>
+            </div>
+        </div>
+      
+        <fieldset>
+        <a class="HotelName" id="locationtext" href="#home"><i class="fa fa-info-circle" aria-hidden="true"></i>	&nbsp;&nbsp;On demand, we can offer playstation, babycall, children care, dog equipment, etc.</a>
+      </fieldset>
+      <div class="row"> 
+        <div class="column1">
+          <img src="images/cinqueterre.jpg" style="width:100%">
+        </div>
+        <div class="column">  
+          <img src="images/newyork2.jpg" style="width:100%">
+        </div>  
+        <div class="column">
+          <img src="images/paris.jpg" style="width:100%">
+          </div>
+          <div class="column">          
+            <img src="images/pisa.jpg" style="width:100%">
+          </div>
+        </div><br><br>
+        <fieldset class="colorchange">
+          <a class="HotelName" id="locationtext" href="#home">&nbsp;&nbsp;Get the best offers first!</a><br><br>
+          <a class="HotelName" id="locationtext" href="#home">&nbsp;&nbsp;Join our newsletter.</a><br><br>
+          <a class="HotelName" id="locationtext" href="#home">
+            <label for="fortext">E-mail</label>
+            <input type="text" name="Email" placeholder="Your Email Address" id="textfield"></a>
+          </fieldset><br><br><br>
+          <fieldset class="changeAnothercolor">
+            <h2>Find Us On</h2><br>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i><br><br>
+
+            <h3>Powered by w3.css</h3>
+          </fieldset>
+</body>
+</html>
